@@ -1,0 +1,58 @@
+.main-div{
+    height: 100vh;
+    background-image: url('../images/login\ background.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div-signup{
+    height: 100vh;
+    background-image: url('../images/signup\ background.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-content{
+    
+    color: white;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    height: 40px;
+    width: 350px;
+    color: white;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding-left: 20px;
+    outline: none;
+}
+.input-field::placeholder{
+    color: white;
+}
+
+.signup-navi{
+    display: flex;
+    justify-content: space-between;
+}
+.login-btn{
+    margin-top: 30px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #4183fd;
+    height: 40px;
+}
+.lo-sign{
+    color: white;
+    text-decoration: none;
+}
